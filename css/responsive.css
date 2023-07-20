@@ -1,0 +1,499 @@
+/*css media query goes here*/
+@media (min-width:320px) and (max-width:480px){
+/*css start*/
+.header .navbar-nav .nav-item .nav-link{
+margin:0px;
+}
+.header .navbar-nav .nav-item .nav-link:hover{
+background:url("../images/line.png")left bottom no-repeat;
+background-size: auto;
+}
+.header .navbar-nav .nav-item .nav-link:focus{
+background:url("../images/line.png")left bottom no-repeat;
+background-size: auto;
+}
+.header .navbar-nav .nav-item .active{
+background:url("../images/line.png")left bottom no-repeat;
+background-size: auto
+}
+.banner h4 {
+font-size: 12px;
+line-height: 1.2em;
+font-weight: 600;
+margin: 0px 0px 15px;
+color: #008ed6;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.banner h1 {
+font-size: 20px;
+font-weight: 700;
+color: #fff;
+margin: 15px 0px;
+line-height: 1.2em;
+
+}
+.banner p {
+font-size: 13px;
+font-weight: 600;
+color: #717174;
+width: 100%;
+margin: 0px 0px 15px;
+line-height: 1.7em;
+padding: 0px 10px 0px 0px;
+}
+.banner .double-btn {
+width: 100%;
+padding: 20px 0px 0px;
+
+}
+.banner .double-btn .btn-primary {
+font-size: 10px;
+line-height: 1.7em;
+font-weight: 700;
+text-transform: uppercase;
+border-radius: 5px;
+border: 1px solid #008ed6;
+letter-spacing: 0px;
+padding: 10px 10px;
+background: #008ed6;
+transition: 1s;
+}
+.banner .double-btn .btn-light {
+font-size: 10px;
+line-height: 1.7em;
+font-weight: 700;
+text-transform: uppercase;
+border-radius: 5px;
+border: 1px solid #008ed6;
+letter-spacing: 0px;
+padding: 10px 10px;
+background: #008ed6;
+transition: 1s;
+}
+.title h4 {
+font-size: 12px;
+line-height: 1.2em;
+font-weight: 600;
+margin: 0px 0px 15px;
+color: #008ed6;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.title h1 {
+font-size: 25px;
+font-weight: 600;
+color: #000;
+margin: 10px 0px;
+line-height: 1.2em;
+}
+.title h1 {
+font-size: 20px;
+font-weight: 600;
+color: #000;
+margin: 10px 0px;
+line-height: 1.2em;
+}
+.about-long {
+padding:0px;
+}
+.about-long p {
+font-size: 14px;
+line-height: 1.7em;
+color: #999999;
+font-weight: 400;
+width: 100%;
+}
+.adout-short .title h4 {
+font-size: 14px;
+}
+.adout-short .title h1 {
+font-size: 22px;
+font-weight: 500;
+}
+.adout-short p {
+width: 100%;
+font-size: 14px;
+line-height: 1.7em;
+color: #999999;
+font-weight: 400;
+}
+.testimonial .owl-carousel .item h4 {
+font-size: 16px;
+line-height: 1.5em;
+color: #fff;
+font-weight: 500;
+font-style: italic;
+margin: 0px 0px 30px;
+}
+.testimonial .owl-carousel .item .cleint {
+width: 40px;
+height:40px;
+border-radius: 100%;
+}
+.testimonial .owl-carousel .item p {
+font-size: 12px;
+font-weight: 400;
+line-height: 1.7em;
+color: #fff;
+margin: 0px 0px;
+}
+.testimonial .owl-theme .owl-dots .owl-dot.active span {
+background: #fff;
+width: 16px;
+height: 16px;
+margin: 10px 7px 3px;
+}
+.eye-cather h1 {
+font-size: 20px;
+font-weight: 700;
+color: #fff;
+line-height: 1.2em;
+margin: 25px 0px;
+}
+.eye-cather .double-btn .btn-light {
+font-size: 10px;
+line-height: 1.7em;
+font-weight: 700;
+color: #fff;
+text-transform: uppercase;
+border-radius: 5px;
+border: 1px solid #717174;
+letter-spacing: 0px;
+padding: 10px 15px;
+background: transparent;
+transition: 1s;
+margin: 10px 0px 0px 10px;
+}
+.eye-cather .double-btn .btn-primary {
+font-size: 10px;
+line-height: 1.7em;
+font-weight: 700;
+text-transform: uppercase;
+border-radius: 5px;
+border: 1px solid #008ed6;
+letter-spacing: 0px;
+padding: 10px 15px;
+background: #008ed6;
+transition: 1s;
+margin: 10px 0px 0px 10px;
+}
+.pricing-box .price-head h3 {
+font-size: 22px;
+font-weight: 700;
+line-height: 1.2em;
+text-transform: uppercase;
+margin: 0px;
+}
+.pricing-box .main-price h1 {
+font-size: 65px;
+width: 600;
+line-height: 1,2em;
+}
+.pricing-box .price-content p {
+font-size: 14px;
+font-weight: 500;
+color: #999999;
+line-height: 1.7em;
+margin: 0px 0px 40px;
+}
+.pricing-box .price-content .btn-primary {
+font-size: 12px;
+color: #008ed6;
+line-height: 1.7em;
+font-weight: 700;
+text-transform: uppercase;
+border-radius: 5px;
+border: 1px solid #999;
+letter-spacing: 0px;
+padding: 10px 25px;
+background: #fff;
+transition: 1s;
+}
+.pricing-box .price-head h3{
+font-size:20px;
+}
+.pricing-box .main-price h1 {
+font-size: 55px;
+}
+.contact-form .btn-primary {
+font-size: 14px;
+color: #fff;
+line-height: 1.7em;
+font-weight: 700;
+text-transform: uppercase;
+border-radius: 5px;
+border: 1px solid #008ed6;
+letter-spacing: 0px;
+padding: 10px 15px;
+background: #008ed6;
+transition: 1s;
+margin: 25px 0px 0px;
+}
+.contact-form .form-control {
+padding: 15px 30px;
+border: 1px solid #444348;
+font-size: 14px;
+font-weight: 600;
+color: #5d5c5f;
+text-transform: uppercase;
+background: transparent;
+border-radius: 3px;
+}
+.footer {
+width: 100%;
+padding: 0px 0px;
+background: #15141a;
+}
+.footer .iconbox .fa {
+color: #444348;
+font-size: 14px;
+margin: 10px 10px;
+transition: 1s;
+}
+.footer p {
+text-align: center;
+font-size: 14px;
+line-height: 1.7em;
+font-weight: 600;
+text-transform: uppercase;
+color: #444348;
+}
+/*css end*/
+}
+@media (min-width:481px) and (max-width:767px){
+/*css start*/
+
+.banner h4 {
+font-size: 16px;
+
+}
+.banner h1 {
+font-size: 36px;
+font-weight: 700;
+color: #fff;
+margin: 15px 0px;
+line-height: 1.2em;
+
+}
+.banner p {
+font-size: 14px;
+font-weight: 600;
+color: #717174;
+width: 100%;
+margin: 0px 0px 15px;
+line-height: 1.7em;
+padding: 0px 10px 0px 0px;
+}
+.banner .double-btn {
+width: 100%;
+padding: 20px 0px 0px;
+
+
+}
+.banner .double-btn .btn-primary {
+font-size: 12px;
+line-height: 1.7em;
+font-weight: 700;
+text-transform: uppercase;
+border-radius: 5px;
+border: 1px solid #008ed6;
+letter-spacing: 0px;
+padding: 15px 30px;
+background: #008ed6;
+transition: 1s;
+}
+.banner .double-btn .btn-light {
+font-size: 12px;
+line-height: 1.7em;
+font-weight: 700;
+color: #fff;
+text-transform: uppercase;
+border-radius: 5px;
+border: 1px solid #717174;
+letter-spacing: 0px;
+padding: 15px 30px;
+background: transparent;
+transition: 1s;
+margin:0px 0px 0px 25px;
+display:inline-block;
+
+}
+.about-long p {
+font-size: 16px;
+line-height: 1.7em;
+color: #999999;
+font-weight: 400;
+width: 100%;
+}
+.adout-short p{
+width: 100%;
+font-size: 16px;
+line-height: 1.7em;
+color: #999999;
+font-weight: 400;
+}
+.testimonial .owl-carousel .item h4 {
+font-size: 19px;
+line-height: 1.5em;
+color: #fff;
+font-weight: 500;
+font-style: italic;
+margin: 0px 0px 30px;
+}
+.testimonial .owl-carousel .item p{
+margin:12px 25px;
+}
+.eye-cather .double-btn .btn-light{
+padding:15px 35px;
+}
+.footer{
+  padding:0px;
+}
+.footer .iconbox .fa {
+    color: #444348;
+    font-size: 20px;
+    margin: 18px 7px;
+  
+}
+/*css end*/
+}
+@media (min-width:768px) and (max-width:1024px){
+/*css start*/
+.banner h4{
+font-size: 24px;
+line-height: 1.2em;
+font-weight: 600;
+margin: 0px 0px 15px;
+color: #008ed6;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.banner h1{
+font-size: 50px;
+font-weight: 700;
+color: #fff;
+margin: 15px 0px;
+line-height: 1.2em;
+
+}
+.banner p {
+font-size: 20px;
+font-weight: 600;
+color: #717174;
+width: 100%;
+margin: 30px 0px 15px;
+line-height: 1.7em;
+padding: 0px 10px 0px 0px;
+}
+.banner .double-btn {
+width: 100%;
+padding: 40px 0px 0px;
+
+}
+.banner .double-btn .btn-primary {
+font-size: 20px;
+line-height: 1.7em;
+font-weight: 700;
+text-transform: uppercase;
+border-radius: 5px;
+border: 1px solid #008ed6;
+letter-spacing: 0px;
+padding: 15px 30px;
+background: #008ed6;
+transition: 1s;
+}
+.banner .double-btn .btn-light {
+font-size: 20px;
+line-height: 1.7em;
+font-weight: 700;
+text-transform: uppercase;
+border-radius: 5px;
+border: 1px solid #008ed6;
+letter-spacing: 0px;
+padding: 15px 30px;
+background: #008ed6;
+transition: 1s;
+}
+.about-long p {
+font-size: 18px;
+line-height: 1.7em;
+color: #999999;
+font-weight: 400;
+width: 100%;
+}
+.adout-short p {
+width: 100%;
+font-size: 18px;
+line-height: 1.7em;
+color: #999999;
+font-weight: 400;
+}
+.title h4 {
+font-size: 22px;
+line-height: 1.2em;
+font-weight: 600;
+margin: 0px 0px 15px;
+color: #008ed6;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.adout-short .title h1 {
+font-size: 50px;
+font-weight: 500;
+}
+.testimonial .owl-carousel .item h4{
+font-size: 19px;
+line-height: 1.5em;
+color: #fff;
+font-weight: 500;
+font-style: italic;
+margin: 0px 0px 30px;
+}
+.testimonial .owl-carousel .item p{
+margin:12px 25px;
+}
+.title h1{
+font-size:55px;
+}
+.pricing-box .price-head h3 {
+font-size: 50px;
+}
+.pricing-box .main-price h1 {
+font-size: 100px;
+}
+.double-btn .btn-light{
+padding:15px 35px;
+}
+.pricing-box .price-content p {
+font-size: 25px;
+
+}
+.pricing-box .price-content .btn-primary {
+font-size: 20px;
+padding:15px 35px;
+
+}
+.footer {
+  padding:20px 0px;
+}
+
+.footer .iconbox .fa {
+    color: #444348;
+    font-size: 28px;
+    margin: 15px 15px;
+  
+}
+
+.footer .iconbox p {
+    color: #444348;
+    font-size: 26px;
+    font-weight:600;
+  
+}
+.contact-form .form-control {
+    padding: 12px;
+    
+    }
+/*css end*/
+}
